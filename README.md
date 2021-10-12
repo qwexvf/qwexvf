@@ -5,7 +5,7 @@
     <img align="left" src="https://github-readme-stats.vercel.app/api?username=qwexvf&count_private=true&show_icons=true&theme=synthwave" />
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=qwexvf&langs_count=8&hide=javascript,html,css,visual basic&layout=compact&theme=synthwave"/>
+    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=qwexvf&langs_count=8&hide=javascript,html,css,visual basic&theme=synthwave"/>
   </a>
 </div>
 <!--
