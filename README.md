@@ -8,6 +8,8 @@
     <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=qwexvf&langs_count=8&hide=javascript,html,css,visual basic&theme=synthwave&hide_border=true"/>
   </a>
 </div>
+
+<a href="https://app.daily.dev/qwexvf"><img src="https://api.daily.dev/devcards/22f34d6cb3c8403282f5b20c3f876071.png?r=lci" width="400" alt="maru's Dev Card"/></a>
 <!--
 **qwexvf/qwexvf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
