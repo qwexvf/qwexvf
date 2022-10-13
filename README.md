@@ -1,15 +1,8 @@
 ### Hi there 👋
 
-<div>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="left" src="https://github-readme-stats.vercel.app/api?username=qwexvf&count_private=true&show_icons=true&theme=nord&hide_border=true" />
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=qwexvf&langs_count=8&hide=javascript,html,css,visual basic&theme=nord&hide_border=true"/>
-  </a>
-</div>
+[![Status](https://github-readme-stats.vercel.app/api?username=qwexvf&count_private=true&show_icons=true&theme=nord&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=qwexvf&theme=nord&hide_border=true&hide=JavaScript,CSS,Visual%20Basic,HTML,PHP,C#,Lua)](https://github.com/anuraghazra/github-readme-stats)
 
-<a href="https://app.daily.dev/qwexvf"><img src="https://api.daily.dev/devcards/22f34d6cb3c8403282f5b20c3f876071.png?r=lci" width="400" alt="maru's Dev Card"/></a>
 <!--
 **qwexvf/qwexvf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
