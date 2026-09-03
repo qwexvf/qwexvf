@@ -10,8 +10,10 @@
 Backend engineer in Tokyo. BEAM person — Erlang, Elixir, and mostly **Gleam** these days.
 When the BEAM is the wrong tool, Rust or Go.
 
-I build the missing pieces of ecosystems I like: a GraphQL server for Gleam, codegen for
-specs, a job queue, a code-intelligence engine, a supply-chain scanner.
+Mostly I just like trying things. A new language, a new runtime, a tool I'm not sure I need —
+I'd rather build something small with it than read about it. Most of those stay experiments.
+The ones below stuck around: a GraphQL server for Gleam, codegen for specs, a job queue,
+a code-intelligence engine, a supply-chain scanner.
 
 <details open>
 <summary><b>Gleam</b></summary>
