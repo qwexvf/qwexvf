@@ -20,36 +20,31 @@ a code-intelligence engine, a supply-chain scanner.
 
 | | |
 |---|---|
-| [mochi](https://github.com/qwexvf/mochi) | GraphQL engine — SDL codegen, subscriptions, Relay pagination, file uploads |
 | [nori](https://github.com/qwexvf/nori) | OpenAPI codegen — types, routes, clients, middleware, React Query/SWR hooks |
-| [globan](https://github.com/qwexvf/globan) | Postgres-backed job queue, ported from Oban |
+| [nori_asyncapi](https://github.com/qwexvf/nori_asyncapi) | AsyncAPI 3.x codegen — typed TypeScript client + Gleam server handlers |
+| [mochi](https://github.com/qwexvf/mochi) | GraphQL engine. Satellites: [codegen](https://github.com/qwexvf/mochi_codegen), [transport](https://github.com/qwexvf/mochi_transport), [relay](https://github.com/qwexvf/mochi_relay), [upload](https://github.com/qwexvf/mochi_upload), [studio](https://github.com/qwexvf/mochi_studio) |
 | [taffy](https://github.com/qwexvf/taffy) | Pure Gleam YAML 1.2 parser 🍬 |
-| [nande](https://github.com/qwexvf/nande) | Self-hosted error tracking, Sentry-SDK compatible. One container + a Postgres |
 
 </details>
 
-<details>
+<details open>
 <summary><b>Rust / Go</b></summary>
 
 | | |
 |---|---|
 | [ripple](https://github.com/qwexvf/ripple) | Code-intelligence engine — blast radius, PR review targeting, cross-service call graphs across 13 languages. CLI, MCP server, or file-watching daemon |
 | [aegis-cli](https://github.com/qwexvf/aegis-cli) | Supply-chain scanner — offline-first, AST risk scoring, CVE/OSV gating, SBOM, 24 lockfile ecosystems |
-| [apm](https://github.com/qwexvf/apm) | Lockfile-based reproducible plugin installs for AI agent tools |
 | [sendup](https://github.com/qwexvf/sendup) | Static HTML to your own subdomain in ~1s, on Cloudflare's free tier |
+| [apm](https://github.com/qwexvf/apm) | Lockfile-based reproducible plugin installs for AI agent tools |
 
 </details>
 
-<details>
+<details open>
 <summary><b>Neovim</b></summary>
 
 | | |
 |---|---|
-| [pakku.nvim](https://github.com/qwexvf/pakku.nvim) | Plugin manager on `vim.pack` — lazy.nvim DX, supply-chain scanning, force-push audit |
 | [aegis.nvim](https://github.com/qwexvf/aegis.nvim) | Gates plugin clone/update/build/load on an aegis verdict for that exact commit |
+| [pakku.nvim](https://github.com/qwexvf/pakku.nvim) | Plugin manager on `vim.pack` — lazy.nvim DX, supply-chain scanning, force-push audit |
 
 </details>
-
----
-
-Arch Linux + Hyprland — [dotfiles](https://github.com/qwexvf/dotfiles).
