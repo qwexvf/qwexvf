@@ -1,5 +1,3 @@
-<img src="assets/header.svg" alt="qwexvf — BEAM · Gleam · Rust" width="100%">
-
 <p>
   <img alt="Gleam" src="https://img.shields.io/badge/Gleam-FFAFF3?style=flat-square&logo=gleam&logoColor=000">
   <img alt="Erlang" src="https://img.shields.io/badge/Erlang-A90533?style=flat-square&logo=erlang&logoColor=fff">
