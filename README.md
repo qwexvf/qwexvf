@@ -31,8 +31,8 @@ projects below are the ones I kept working on.
 
 | | |
 |---|---|
-| [ripple](https://github.com/qwexvf/ripple) | Builds a call graph of your code (13 languages) to show what a change can break, what to look at first in a PR, and how services call each other. Use it as a CLI, an MCP server, or a daemon that reindexes on save |
-| [aegis-cli](https://github.com/qwexvf/aegis-cli) | Supply-chain scanner. Works offline, scores packages by reading their AST, blocks installs with known CVEs (OSV), and outputs SBOMs. Reads lockfiles from 24 ecosystems |
+| [ripple](https://github.com/qwexvf/ripple) | Builds a call graph of your code (19 languages) to show what a change can break, what to look at first in a PR, and how services call each other. Use it as a CLI, an MCP server, or a daemon that reindexes on save |
+| [aegis-cli](https://github.com/qwexvf/aegis-cli) | Supply-chain scanner. Works offline, scores packages by reading their AST, blocks installs with known CVEs (OSV), and outputs SBOMs. Parses 24 lockfile formats across 15 ecosystems |
 | [sendup](https://github.com/qwexvf/sendup) | Puts a static HTML page on your own subdomain in about a second, on Cloudflare's free tier |
 | [apm](https://github.com/qwexvf/apm) | Plugin manager for AI agent tools, with a lockfile so installs are reproducible |
 
