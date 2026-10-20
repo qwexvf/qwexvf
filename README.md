@@ -7,23 +7,22 @@
   <img alt="Neovim" src="https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=fff">
 </p>
 
-Backend engineer in Tokyo. BEAM person — Erlang, Elixir, and mostly **Gleam** these days.
-When the BEAM is the wrong tool, Rust or Go.
+Backend engineer in Tokyo. I mostly write Gleam these days, plus some Erlang and Elixir.
+If the BEAM doesn't fit the job, I use Rust or Go.
 
-Mostly I just like trying things. A new language, a new runtime, a tool I'm not sure I need —
-I'd rather build something small with it than read about it. Most of those stay experiments.
-The ones below stuck around: a GraphQL server for Gleam, codegen for specs, a job queue,
-a code-intelligence engine, a supply-chain scanner.
+I like trying new languages, runtimes and tools, even ones I probably don't need. I learn more
+by building something small than by reading about it. Most of that stays as experiments; the
+projects below are the ones I kept working on.
 
 <details open>
 <summary><b>Gleam</b></summary>
 
 | | |
 |---|---|
-| [nori](https://github.com/qwexvf/nori) | OpenAPI codegen — types, routes, clients, middleware, React Query/SWR hooks |
-| [nori_asyncapi](https://github.com/qwexvf/nori_asyncapi) | AsyncAPI 3.x codegen — typed TypeScript client + Gleam server handlers |
-| [mochi](https://github.com/qwexvf/mochi) | GraphQL engine. Satellites: [codegen](https://github.com/qwexvf/mochi_codegen), [transport](https://github.com/qwexvf/mochi_transport), [relay](https://github.com/qwexvf/mochi_relay), [upload](https://github.com/qwexvf/mochi_upload), [studio](https://github.com/qwexvf/mochi_studio) |
-| [taffy](https://github.com/qwexvf/taffy) | Pure Gleam YAML 1.2 parser 🍬 |
+| [nori](https://github.com/qwexvf/nori) | OpenAPI codegen. Generates types, routes, clients, middleware and React Query/SWR hooks |
+| [nori_asyncapi](https://github.com/qwexvf/nori_asyncapi) | AsyncAPI 3.x codegen. Generates a typed TypeScript client and Gleam server handlers |
+| [mochi](https://github.com/qwexvf/mochi) | GraphQL server. Extra packages: [codegen](https://github.com/qwexvf/mochi_codegen), [transport](https://github.com/qwexvf/mochi_transport), [relay](https://github.com/qwexvf/mochi_relay), [upload](https://github.com/qwexvf/mochi_upload), [studio](https://github.com/qwexvf/mochi_studio) |
+| [taffy](https://github.com/qwexvf/taffy) | YAML 1.2 parser written in pure Gleam 🍬 |
 
 </details>
 
@@ -32,10 +31,10 @@ a code-intelligence engine, a supply-chain scanner.
 
 | | |
 |---|---|
-| [ripple](https://github.com/qwexvf/ripple) | Code-intelligence engine — blast radius, PR review targeting, cross-service call graphs across 13 languages. CLI, MCP server, or file-watching daemon |
-| [aegis-cli](https://github.com/qwexvf/aegis-cli) | Supply-chain scanner — offline-first, AST risk scoring, CVE/OSV gating, SBOM, 24 lockfile ecosystems |
-| [sendup](https://github.com/qwexvf/sendup) | Static HTML to your own subdomain in ~1s, on Cloudflare's free tier |
-| [apm](https://github.com/qwexvf/apm) | Lockfile-based reproducible plugin installs for AI agent tools |
+| [ripple](https://github.com/qwexvf/ripple) | Builds a call graph of your code (13 languages) to show what a change can break, what to look at first in a PR, and how services call each other. Use it as a CLI, an MCP server, or a daemon that reindexes on save |
+| [aegis-cli](https://github.com/qwexvf/aegis-cli) | Supply-chain scanner. Works offline, scores packages by reading their AST, blocks installs with known CVEs (OSV), and outputs SBOMs. Reads lockfiles from 24 ecosystems |
+| [sendup](https://github.com/qwexvf/sendup) | Puts a static HTML page on your own subdomain in about a second, on Cloudflare's free tier |
+| [apm](https://github.com/qwexvf/apm) | Plugin manager for AI agent tools, with a lockfile so installs are reproducible |
 
 </details>
 
@@ -44,7 +43,7 @@ a code-intelligence engine, a supply-chain scanner.
 
 | | |
 |---|---|
-| [aegis.nvim](https://github.com/qwexvf/aegis.nvim) | Gates plugin clone/update/build/load on an aegis verdict for that exact commit |
-| [pakku.nvim](https://github.com/qwexvf/pakku.nvim) | Plugin manager on `vim.pack` — lazy.nvim DX, supply-chain scanning, force-push audit |
+| [aegis.nvim](https://github.com/qwexvf/aegis.nvim) | Checks the exact plugin commit with aegis before it gets cloned, updated, built or loaded |
+| [pakku.nvim](https://github.com/qwexvf/pakku.nvim) | Plugin manager built on `vim.pack`. Feels like lazy.nvim, scans plugins for supply-chain issues, and warns when a repo was force-pushed |
 
 </details>
